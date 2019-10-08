@@ -1,0 +1,109 @@
+body {
+    display: grid;
+    background-image: url("model2.jpg");
+    height: 100vh; width: 100vw;
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: 'Acme', sans-serif;
+
+
+  
+}
+nav {
+  color: #f2f2f2;
+  text-align: left;
+  padding: 30px 20px;
+  text-decoration: none;
+  font-size: 40px;
+  display: flex;
+  justify-content: space-around;
+  
+  padding: 40px;
+  /* margin-right: 300px; */
+
+
+}
+
+nav a {
+    color: black;
+    font-family: 'Acme', sans-serif;
+    padding: 10px;
+    
+    
+}
+
+div {
+    display:flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 30%;
+
+}
+button{
+color: #f2f2f2;
+background: #fa4542;
+margin: 0px 0px 3px;
+padding: 20px 32px;
+width: 20%;
+border-radius: 10px;
+font-family: 'Acme', sans-serif;
+
+
+}
+.first{
+    display: flex;
+    flex-direction: column;
+    margin: 5%;
+
+}
+h1{
+    font-size: 80px;
+}
+
+p {
+text-align: left;
+font-size: 30px;
+padding: auto 30px;
+
+}
+
+h2 {
+    font-size: 80px; 
+}
+
+header{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+   
+
+
+}
+main{
+    flex-direction: row;
+    justify-content: left;
+
+}
+
+@media only screen and (nax-width: 600px) {
+    p {
+        font-size: 20px;
+    }
+    
+    h1 {
+    font-size: 20px;
+    color: white;
+    }
+    
+
+}
+ body {
+     background-image: url(timtim.jpg);
+     background-size: cover;
+     height: 100vh; width: 100vw;
+     color: #f2f2f2;
+
+} nav a {
+    color: white;
+    font-size: 20px;
+}
